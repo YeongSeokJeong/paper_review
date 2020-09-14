@@ -31,3 +31,33 @@ Link : https://arxiv.org/pdf/1902.07178.pdf
      - Convolutional LSTM(ConvLSTM) : That can be able to maintain structural  representation of the features.
 
    ![LAS Model's structure](./img/LAS.png)
+
+### Methodology(External LM)
+
+1. RNN-LM
+
+   - The proposed model's language  model's based on RNN-LM. The RNN model's structure is composed of three LSTM Layer.
+
+     ![Language Model](./img/LM.png)
+
+### Methodology(Spelling Correction)
+
+1. Spelling Correction
+
+   - The characteristic of the spelling correction model
+
+     - Residual Connection : The proposed model's encoder and decoder composed of LSTM. Their LSTM's input and output add after calculate.
+
+     - Layer Normalization per-gate : Layer Normalization allows making deep model.
+
+     - Multi-head additive attention : Multi-head attention can view the various perspective of the query and key value.
+
+       
+
+   ![Spelling Correction](./img/SC.png)
+
+   
+
+### Methodology(Inference)
+
+![inference](./img/inf.jpg)
