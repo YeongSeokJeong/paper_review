@@ -24,3 +24,14 @@ That Section introduce the Attention's effect and sequence to sequence model.
 
 ### Model 
 
+![model structure image from paper](./img/model structure.jpg) 
+
+- The characteristic of this model
+  1. Listener
+     - Pyramid Bidirectional LSTM(pBLSTM)
+  2. Attend and Speller
+     - Attention
+     - Stacked LSTM
+
+- RNN-LM
+- 
