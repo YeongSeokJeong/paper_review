@@ -24,7 +24,7 @@ That Section introduce the Attention's effect and sequence to sequence model.
 
 ### Model 
 
-![model structure image from paper](./img/model structure.jpg) 
+![model structure image from paper](./img/model_structure.jpg) 
 
 - The characteristic of this model
   1. Listener
